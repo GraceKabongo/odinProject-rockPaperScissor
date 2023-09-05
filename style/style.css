@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222831;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #dddddd;
+}
+
+header {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #111720;
+}
+
+h1 {
+  font-family: "Press Start 2P", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #fac650;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  margin: 50px 0;
+}
+
+#game-actu {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#rounds-actu {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#game {
+  width: 320px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#game .sign {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+#game .score {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.btn-container {
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-size: 80px;
+  background-color: #393e46;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 25px;
+}
+
+.btn:hover {
+  background-color: #5b5f68ce;
+}

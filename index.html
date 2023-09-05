@@ -4,10 +4,36 @@
     <title></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+    <link href="style/style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Rock Paper Scissor Game</h1>
+    <header>
+      <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+    <main>
+      <div id="game-actu">Choose your weapon</div>
+      <div id="rounds-actu">First to score 5 points wins the game</div>
+
+      <div id="game">
+        <div class="player">
+          <div class="sign" id="player-sign">❔</div>
+          <div class="score">Player: <span id="player-score">0</span></div>
+        </div>
+        <div class="computer">
+          <div class="sign" id="computer-sign">❔</div>
+          <div class="score">Computer: <span id="computer-score">0</span></div>
+        </div>
+      </div>
+
+      <div class="btn-container">
+        <div class="btn" id="rock-btn">✊</div>
+        <div class="btn" id="paper-btn">✋</div>
+        <div class="btn" id="scissor-btn">✌️</div>
+      </div>
+    </main>
+
+    <footer></footer>
+
     <script src="index.js"></script>
   </body>
 </html>

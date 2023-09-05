@@ -6,8 +6,8 @@ const getComputerChoice = () => {
 };
 
 const getPlayerChoice = () => {
-  let playerPrompt = parseInt(prompt("1. Rock  2. Paper  3. Scissors"));
-  return playerPrompt;
+  //   let playerPrompt = parseInt(prompt("1. Rock  2. Paper  3. Scissors"));
+  return 1;
 };
 
 const gameRound = (computerChoice, playerChoice) => {
@@ -31,9 +31,6 @@ const gameRound = (computerChoice, playerChoice) => {
     console.log("Scissors beat paper");
     computerWin++;
   }
-
-  console.log("computer :", computerWin);
-  console.log("player :", playerWin);
 };
 
 const game = () => {
